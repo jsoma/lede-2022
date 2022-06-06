@@ -17,6 +17,7 @@ nav:
   - Command Line:
     - command-line/opening.md
     - command-line/command-reference.md
+    - command-line/tildes-pipes-redirects.md
   - Python:
     - python/running-programs.md
 extra_css:
