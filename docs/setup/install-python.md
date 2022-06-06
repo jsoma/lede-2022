@@ -242,8 +242,8 @@ Now you should be all set!
     python --version
     ``` 
 
-    It should print out **Python 3.10.3**.
+    It should print out **Python 3.10.3**. Note that the command is `python`, space, hyphen, hyphen, `version` (it gets mistyped a lot!).
 
-!!! warning
+## You're all set!
 
-    The version command seems to get typed incorrectly a lot, so just to be sure: it's `python`, space, hyphen, hyphen, `version`.
+Congrats! :tada:

@@ -1,8 +1,10 @@
-# Setting Cmder as the default shell in VS Code
+# Integrating Cmder with VS Code
 
 !!! warning "Windows only"
 
     This is for Windows users only! All credit goes to [Kelly Kiki](https://twitter.com/kellykiki_) for the walkthrough.
+
+**We want to set Cmder as the default shell in VS Code.**
 
 First, open up VS Code. Then click File (first tab on the top menu) > Preferences > Settings.
 

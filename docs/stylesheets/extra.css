@@ -1,0 +1,16 @@
+h1, h2, h3, h4, h5 {
+    font-family: var(--md-header-font);
+}
+
+.md-typeset table:not([class]) {
+    font-size: 0.75rem;
+}
+
+.md-typeset p code {
+    --md-code-bg-color: #f9f2f4;
+    --md-code-fg-color: #c7254e;
+}
+
+.md-typeset :is(.admonition,details) {
+    font-size: 0.70rem;
+}

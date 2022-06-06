@@ -6,22 +6,37 @@ copyright: Copyright &copy; 2022 Jonathan Soma
 nav:
   - Home: index.md
   - Setup:
-    - Introduction: setup/intro.md
-    - Software: setup/software.md
-    - Visual Studio Code: setup/vs-code.md
-    - UTF-8: setup/utf-8.md
-    - Python: setup/install-python.md
-    - Jupyter: setup/install-jupyter.md
-    - Cmder: setup/cmder.md
-    - Cmder and VS Code: setup/cmder-and-vs-code.md
+    - setup/intro.md
+    - setup/software.md
+    - setup/vs-code.md
+    - setup/utf-8.md
+    - setup/install-python.md
+    - setup/install-jupyter.md
+    - setup/cmder.md
+    - setup/cmder-and-vs-code.md
+  - Command Line:
+    - command-line/opening.md
+    - command-line/command-reference.md
+  - Python:
+    - python/running-programs.md
 extra_css:
   - stylesheets/extra.css
 extra:
   analytics:
     provider: google
     property: UA-5541738-17
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/dangerscarf
 theme:
   name: material
+  font:
+    text: Lato
+    header: Lato
+    code: Roboto Mono
+  palette:
+    primary: purple
+    accent: deep purple
   custom_dir: material_custom
   features:
     - content.code.annotate
@@ -30,7 +45,7 @@ theme:
     # - navigation.expand
     - navigation.indexes
     # - navigation.instant
-    # - navigation.sections
+    - navigation.sections
     - navigation.tabs
     # - navigation.tabs.sticky
     # - navigation.top
@@ -38,7 +53,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
-    # - toc.integrate
+    - toc.integrate
 
 # Extensions
 markdown_extensions:
@@ -82,5 +97,6 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
+  - search
   - mkdocs-jupyter:
       include_source: True

@@ -1,6 +1,8 @@
-# Installing and setting up Cmder
+# Installing Cmder
 
-Cmder is for *Windows users only*.
+!!! warning
+
+    Cmder is for *Windows users only*.
 
 ## Installing
 
