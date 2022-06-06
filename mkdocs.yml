@@ -1,6 +1,6 @@
 site_name: Lede 2022
-repo_url: https://github.com/jsoma/lede-2022-site
-repo_name: jsoma/lede-2022-site
+repo_url: https://github.com/jsoma/lede-2022
+repo_name: jsoma/lede-2022
 edit_uri: edit/master/docs/
 copyright: Copyright &copy; 2022 Jonathan Soma
 nav:
