@@ -8,7 +8,7 @@ What kind of system do you have?
 
 === ":fontawesome-brands-apple: OS X"
 
-    **Do you have an M1 machine?** You can check by clicking the apple icon :fontawesome-brands-apple: in the upper-left corner of your screen, and then selecting **About This Mac**. If it says "M1" anywhere in there, you have an M1.
+    One more question for you: **do you have an M1 machine?** You can check by clicking the apple icon :fontawesome-brands-apple: in the upper-left corner of your screen, and then selecting **About This Mac**. If it says "M1" anywhere in there, you have an M1.
     
     M1 macs are newer, faster, sleeker, and *prone to installation problems.* We'll work through them, though!
 
