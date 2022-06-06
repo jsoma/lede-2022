@@ -4,7 +4,7 @@
 
 First you'll want to download [Visual Studio Code](https://code.visualstudio.com/), a "plain text editor." A plain text editor is used to reading and writing documents that don't have any formatting - no bold, no colors, no font choice. Just you and the text!
 
-Once you've downloaded Visual Studio Code, you'll want to [vs-code.md](set it up).
+Once you've downloaded Visual Studio Code, you'll want to [set it up](vs-code.md).
 
 ## Slack
 
