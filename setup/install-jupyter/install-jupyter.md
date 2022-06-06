@@ -13,7 +13,7 @@ You can install Jupyter Notebook with the following command:
 === ":fontawesome-brands-apple: OS X"
 
     ```bash
-    pyenv install jupyter
+    pip install jupyter
     ```
 
 === ":fontawesome-brands-windows: Windows"
