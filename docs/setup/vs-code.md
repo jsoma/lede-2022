@@ -6,6 +6,10 @@ Any time VS Code helpfully suggests that it can install something, **just say ye
 
 ## The `code` command
 
+!!! warning
+
+    This is for OS X only! The `code` command comes preinstalled on Windows, so you don't need to run a command.
+
 There's a magic command called `code` that you can install through VS Code.
 
 1. Open the **Command Palette** by pressing `Cmd+Shift+P` and type `shell command` to filter the big long list of commands.
