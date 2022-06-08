@@ -14,6 +14,7 @@ nav:
     - setup/install-jupyter.md
     - setup/cmder.md
     - setup/cmder-and-vs-code.md
+    - setup/scoop-issues.md
   - Command Line:
     - command-line/opening.md
     - command-line/command-reference.md
