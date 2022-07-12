@@ -5,6 +5,8 @@ edit_uri: edit/master/docs/
 copyright: Copyright &copy; 2022 Jonathan Soma
 nav:
   - Home: index.md
+  - PDFs:
+    - pdfs/guide.md
   - Setup:
     - setup/intro.md
     - setup/software.md
@@ -23,6 +25,9 @@ nav:
     - python/running-programs.md
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+  - javascript/mermaid_fix.js
 extra:
   analytics:
     provider: google
