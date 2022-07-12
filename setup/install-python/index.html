@@ -984,11 +984,17 @@
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<p>First, we'll update pyenv to know about all of the newer versions of Python. This might take a couple minutes – don't worry, it's working! Then we'll install the Python version we're looking for.</p>
+<p>This process takes <strong>three steps:</strong></p>
+<ol>
+<li>First, we'll update pyenv to know about all of the newer versions of Python. This might take a couple minutes – don't worry, it's working! </li>
+<li>Then we'll install the Python version we're looking for. It will pop open a Window about installing Python. Just agree to whatever it says.</li>
+<li>Finally, we'll use a command called "rehash" to make sure your computer notices the new Python.</li>
+</ol>
+<p>The three commands to run one by one are:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>pyenv update
 <a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>pyenv install 3.10.3
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>pyenv rehash
 </code></pre></div>
-<p>When you run the second command, it will pop open a Window about installing Python. Just agree to whatever it says!</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>At the end of the installation there might be a button that says "Disable PATH length limit." Click it and agree to the prompt.</p>
