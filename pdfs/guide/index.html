@@ -13,7 +13,7 @@
     
     
       
-        <title>Command reference - Lede 2022</title>
+        <title>Guide - Lede 2022</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#command-reference" class="md-skip">
+        <a href="#need-an-answer-fast" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Command reference
+              Guide
             
           </span>
         </div>
@@ -197,13 +197,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../pdfs/guide/" class="md-tabs__link">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
         PDFs
       </a>
     </li>
@@ -229,15 +231,13 @@
         
   
   
-    
-  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../opening/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../command-line/opening/" class="md-tabs__link">
         Command Line
       </a>
     </li>
@@ -327,12 +327,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -357,11 +359,48 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../pdfs/guide/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Guide
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#need-an-answer-fast" class="md-nav__link">
+    Need an answer fast?
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -559,14 +598,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
       
@@ -597,7 +634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../opening/" class="md-nav__link">
+      <a href="../../command-line/opening/" class="md-nav__link">
         Opening the command line
       </a>
     </li>
@@ -609,73 +646,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Command reference
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../command-line/command-reference/" class="md-nav__link">
         Command reference
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#quick-tips-for-being-lazy" class="md-nav__link">
-    Quick Tips for Being Lazy
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#navigating-directories-and-folders" class="md-nav__link">
-    Navigating directories and folders
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#movingeditingdownloading-files" class="md-nav__link">
-    Moving/editing/downloading files
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#looking-at-individual-files" class="md-nav__link">
-    Looking at individual files
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -687,7 +662,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tildes-pipes-redirects/" class="md-nav__link">
+      <a href="../../command-line/tildes-pipes-redirects/" class="md-nav__link">
         Tildes, pipes and redirects
       </a>
     </li>
@@ -768,159 +743,41 @@
 
 
                 
-<a href="https://github.com/jsoma/lede-2022/edit/master/docs/command-line/command-reference.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/jsoma/lede-2022/edit/master/docs/pdfs/guide.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
-<h1 id="command-reference">Command reference<a class="headerlink" href="#command-reference" title="Permanent link">&para;</a></h1>
-<p>These commands will work on both OS X and Windows, as long as Windows folks are using <a href="../../setup/cmder/">Cmder</a>.</p>
-<h2 id="quick-tips-for-being-lazy">Quick Tips for Being Lazy<a class="headerlink" href="#quick-tips-for-being-lazy" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Press ↑ and ↓ to scroll through previous commands.</strong> It can save you a lot of typing.</li>
-<li>Instead of typing out a long file/directory name, type the first few letters and <strong>then press tab.</strong> It will automatically fill in the rest of the filename. <strong>Use this every time you’re typing <em>anything</em> on the command line.</strong></li>
-<li>On a Mac, you can drag a file or folder from Finder onto the Terminal and it will <em>automatically type the full path</em></li>
-</ul>
-<h2 id="navigating-directories-and-folders">Navigating directories and folders<a class="headerlink" href="#navigating-directories-and-folders" title="Permanent link">&para;</a></h2>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Don’t type the <code>[]</code> brackets when using the command - <code>cd [dirname]</code> means you’ll type <code>cd Documents</code>.</p>
-</div>
+  <h1>Guide</h1>
+
+<h2 id="need-an-answer-fast">Need an answer fast?<a class="headerlink" href="#need-an-answer-fast" title="Permanent link">&para;</a></h2>
 <table>
-<thead>
 <tr>
-<th>Command</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>pwd</code></td>
-<td>"Print working directory." Prints the directory you're in. Use this to check that you’re in the directory you want</td>
+  <td></td>
+  <td><strong>Has tables</strong></td>
+  <td><strong>Just text</strong></td>
 </tr>
 <tr>
-<td><code>cd [dirname]</code></td>
-<td>Changes directory, moves you into the folder named <code>dirname</code></td>
+  <td><strong>Can select text</strong></td>
+  <td>
+  <p>Camelot (python)</p>
+  <p>Cometdocs (web)</p>
+  <p>Tabula (tool)</p>
+  </td>
+  <td>
+  <p>pdfminer.six</p>
+  <p>Tika</p>
+  <p>PyPDF</p>
+  </td>
 </tr>
 <tr>
-<td><code>cd ..</code></td>
-<td>Moves you up one directory, e.g. from <code>Desktop/foundations/class-1</code> to <code>Desktop/foundations</code>.</td>
+  <td><strong>Can't select text</strong></td>
+  <td>Don't do it.</td>
+  <td>
+  <p>Tika</p>
+  <p>PyTesseract</p>
+  </td>
 </tr>
-<tr>
-<td><code>ls</code></td>
-<td>lists subdirectories (and files). <code>ls -lah</code> is nicer, though.</td>
-</tr>
-<tr>
-<td><code>find</code></td>
-<td>Tries to find a file without waiting for the database to update - can search by name, size, date modified, etc. <a href="https://www.digitalocean.com/community/tutorials/how-to-use-find-and-locate-to-search-for-files-on-a-linux-vps">This is a good reference</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="movingeditingdownloading-files">Moving/editing/downloading files<a class="headerlink" href="#movingeditingdownloading-files" title="Permanent link">&para;</a></h2>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Don’t type the <code>[]</code> brackets when using the command - <code>cd [dirname]</code> means you’ll type <code>cd Documents</code>.</p>
-</div>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>mv [source] [destination]</code></td>
-<td>Moves a file from one place to another</td>
-</tr>
-<tr>
-<td><code>cp [source] [destination]</code></td>
-<td>Copies a file from one place to another (so now you have two)</td>
-</tr>
-<tr>
-<td><code>rm [file]</code></td>
-<td>Deletes (removes) a file</td>
-</tr>
-<tr>
-<td><code>mkdir [directoryname]</code></td>
-<td>Creates a directory</td>
-</tr>
-<tr>
-<td><code>rmdir [directoryname]</code></td>
-<td>Deletes (removes) a directory</td>
-</tr>
-<tr>
-<td><code>tar cvf [filename] [filename] [filename]...</code></td>
-<td>Compresses (zips) files up into a .tar.gz file</td>
-</tr>
-<tr>
-<td><code>tar xvf [filename]</code></td>
-<td>Extracts (unzips) a .tar.gz file</td>
-</tr>
-<tr>
-<td><code>curl [url]</code></td>
-<td>Downloads a file, but streams it into your terminal window</td>
-</tr>
-<tr>
-<td><code>curl -O [url]</code></td>
-<td>Downloads a file, saving it</td>
-</tr>
-<tr>
-<td><code>wget [url]</code></td>
-<td>Downloads a file, saving it (yes, <code>curl</code> and <code>wget</code> are pretty similar) same (need to instal <code>wget</code>)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="looking-at-individual-files">Looking at individual files<a class="headerlink" href="#looking-at-individual-files" title="Permanent link">&para;</a></h2>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Don’t type the <code>[]</code> brackets when using the command - <code>cd [dirname]</code> means you’ll type <code>cd Documents</code>.</p>
-</div>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>cat [filename]</code></td>
-<td>Displays the contents of a file</td>
-</tr>
-<tr>
-<td><code>wc [filename]</code></td>
-<td>Displays the word count of a file</td>
-</tr>
-<tr>
-<td><code>wc -l [filename]</code></td>
-<td>Displays the line count of a file</td>
-</tr>
-<tr>
-<td><code>head -n 10 [filename]</code></td>
-<td>Displays the first 10 lines of a file</td>
-</tr>
-<tr>
-<td><code>tail -n 20 [filename]</code></td>
-<td>Displays the last 20 lines of a file</td>
-</tr>
-<tr>
-<td><code>more [filename]</code></td>
-<td>Displays the contents of a file one screen at a time (spacebar to continue)</td>
-</tr>
-<tr>
-<td><code>grep [text] [filename]</code></td>
-<td>Show all of the lines in filename that contain text</td>
-</tr>
-<tr>
-<td><code>sort</code></td>
-<td>Sorts the lines of a file</td>
-</tr>
-<tr>
-<td><code>uniq</code></td>
-<td>Removes duplicate adjacent lines of a file</td>
-</tr>
-</tbody>
 </table>
 
               
@@ -936,7 +793,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../opening/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Opening the command line" rel="prev">
+        <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -945,20 +802,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Opening the command line
+              Home
             </div>
           </div>
         </a>
       
       
         
-        <a href="../tildes-pipes-redirects/" class="md-footer__link md-footer__link--next" aria-label="Next: Tildes, pipes and redirects" rel="next">
+        <a href="../../setup/intro/" class="md-footer__link md-footer__link--next" aria-label="Next: Introduction" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Tildes, pipes and redirects
+              Introduction
             </div>
           </div>
           <div class="md-footer__button md-icon">
