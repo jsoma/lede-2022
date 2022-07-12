@@ -193,14 +193,19 @@ Python 3.10.4 is out now, **but not everything seems to work with it**. Instead 
 
 === ":fontawesome-brands-windows: Windows"
 
-    First, we'll update pyenv to know about all of the newer versions of Python. This might take a couple minutes – don't worry, it's working! Then we'll install the Python version we're looking for.
+    This process takes **three steps:**
+
+    1. First, we'll update pyenv to know about all of the newer versions of Python. This might take a couple minutes – don't worry, it's working! 
+    2. Then we'll install the Python version we're looking for. It will pop open a Window about installing Python. Just agree to whatever it says.
+    3. Finally, we'll use a command called "rehash" to make sure your computer notices the new Python.
+
+    The three commands to run one by one are:
 
     ```
     pyenv update
     pyenv install 3.10.3
+    pyenv rehash
     ```
-
-    When you run the second command, it will pop open a Window about installing Python. Just agree to whatever it says!
 
     !!! info
     
